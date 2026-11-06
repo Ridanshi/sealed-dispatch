@@ -1,0 +1,6 @@
+{
+ "sealed_beacon_ms_median": 8.25,
+ "sealed_blind_bids_ms_median": 5.45,
+ "sealed_reveal_execute_ms_median": 5.0,
+ "bid_coarse_calls_that_carried_exact_ceiling": 0
+}

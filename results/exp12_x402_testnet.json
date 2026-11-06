@@ -1,0 +1,33 @@
+{
+ "network": "eip155:84532",
+ "price": "$0.001",
+ "payer": "0x48901FF32258F0301ECa78b764DC96F244D5Ac6d",
+ "payee": "0xAeD0A4f38055ace16078d0AE8d2fc5a317AC4b29",
+ "payer_usdc_balance_before": 20.0,
+ "stage1_unpaid_is_error": true,
+ "stage1_payment_required": {
+  "x402Version": 2,
+  "scheme": "exact",
+  "network": "eip155:84532",
+  "amount": "1000",
+  "asset": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+  "payTo": "0xAeD0A4f38055ace16078d0AE8d2fc5a317AC4b29"
+ },
+ "paid_call_seconds": 1.85,
+ "stage4_payment_response": {
+  "success": true,
+  "errorReason": null,
+  "errorMessage": null,
+  "payer": "0x48901FF32258F0301ECa78b764DC96F244D5Ac6d",
+  "transaction": "0x082ebfa672ff91f091581cad8205f9b26af6c12c8df78d1b8a046fde67232b5a",
+  "network": "eip155:84532",
+  "amount": null,
+  "extensions": null,
+  "extra": null
+ },
+ "tool_result": [
+  "{\"idx\": 0, \"opened\": true, \"result\": \"5bfa31f6fd05c7b6\"}"
+ ],
+ "is_error": false,
+ "payer_usdc_balance_after": 19.999
+}

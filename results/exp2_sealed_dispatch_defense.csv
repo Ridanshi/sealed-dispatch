@@ -1,0 +1,4 @@
+mode,adversary_win_rate,win_rate_ci95,seeds
+plaintext_baseline,0.769,0.011,20
+sealed_dispatch,0.5556,0.0082,20
+no_info_reference,0.1111,0.0,0

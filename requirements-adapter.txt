@@ -1,0 +1,4 @@
+# Only needed for demo_langgraph.py / langgraph_adapter/. Everything in
+# sealed_dispatch_eval/ and experiments/ is stdlib-only by design -- see
+# README.md.
+langgraph>=0.2,<0.3

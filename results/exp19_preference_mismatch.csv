@@ -1,0 +1,13 @@
+attacker,agent,win_rate,win_rate_ci95,revenue_per_task,revenue_ci95
+bucket_max,default (0.4/0.4/0.2),0.7613,0.0015,6.71,1.18
+bucket_max,price-heavy (0.7/0.2/0.1),0.2556,0.1573,1.26,0.79
+bucket_max,quality-heavy (0.1/0.8/0.1),0.7645,0.0065,6.87,1.3
+bucket_max,latency-heavy (0.2/0.2/0.6),0.7613,0.0015,6.71,1.18
+bucket_max,random Dirichlet (concentration 20),0.7151,0.0755,6.11,1.26
+bucket_max,random Dirichlet (concentration 5),0.6268,0.1238,5.34,1.43
+regression,default (0.4/0.4/0.2),0.9881,0.0002,8.7,1.51
+regression,price-heavy (0.7/0.2/0.1),0.3327,0.2044,1.66,1.03
+regression,quality-heavy (0.1/0.8/0.1),0.9882,0.0003,8.7,1.51
+regression,latency-heavy (0.2/0.2/0.6),0.9881,0.0002,8.7,1.51
+regression,random Dirichlet (concentration 20),0.9273,0.0982,7.9,1.61
+regression,random Dirichlet (concentration 5),0.818,0.1591,6.98,1.86

@@ -1,0 +1,20 @@
+# Needed for the whole eval harness now -- see README.md's "Dependencies" note.
+# run_all.py exercises both, so install this before running it.
+#
+# py_arkworks_bls12381: Rust (arkworks) BLS12-381 bindings, prebuilt wheels --
+# no C++ toolchain needed. Chosen after `blspy` failed to build on this
+# machine (missing cmake/C++ build tools); py_arkworks_bls12381 installs
+# cleanly from a prebuilt wheel and benchmarks ~100x faster than the
+# pure-Python py_ecc reference implementation this module used first.
+# Used by: threshold_bls.py, exp7.
+py_arkworks_bls12381
+
+# cryptography: standard, widely-preinstalled library (X25519 + HKDF +
+# ChaCha20Poly1305) backing provider_identity.py's sealed-box construction,
+# which closes threat-model gap A4 (dispatch-racing). dispatch.py imports
+# provider_identity.py unconditionally (the feature itself is opt-in via a
+# None-default parameter, but the import is not) -- so this is now a real
+# dependency of the core package, not just of one experiment.
+# Used by: provider_identity.py, dispatch.py (import only), exp8.
+cryptography
+

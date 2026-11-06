@@ -1,0 +1,7 @@
+configuration,adv_win,delta_vs_full
+full defense,0.6242,0.0
+- slashing,0.9498,0.3256
+- blind candidacy,0.6194,-0.0048
+- stake weighting (uniform_m),0.6112,-0.013
+- bounded candidate set (all_scored),0.9994,0.3752
+nothing (plaintext baseline),0.9998,0.3756

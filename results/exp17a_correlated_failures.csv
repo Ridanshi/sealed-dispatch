@@ -1,0 +1,10 @@
+k,n,p_domain_down,p_member_offline,placement,p_live,trials
+5,9,0.01,0.05,one_domain,0.98946,200000
+5,9,0.01,0.05,three_domains,0.99862,200000
+5,9,0.01,0.05,nine_domains,0.99992,200000
+5,9,0.05,0.05,one_domain,0.94983,200000
+5,9,0.05,0.05,three_domains,0.98833,200000
+5,9,0.05,0.05,nine_domains,0.9992,200000
+5,9,0.1,0.05,one_domain,0.90012,200000
+5,9,0.1,0.05,three_domains,0.96451,200000
+5,9,0.1,0.05,nine_domains,0.99504,200000

@@ -1,0 +1,10 @@
+defense,worst_win_rate,worst_win_rate_ci95,worst_revenue_per_task,worst_revenue_ci95,agent_regret
+plaintext,0.9881,0.0002,8.7,1.51,0.0
+rate_limited,0.889,0.0195,7.81,1.34,0.0
+bid_first,0.9931,0.0051,6.87,1.36,0.0
+lottery_tau0.02,0.945,0.0161,8.35,1.48,0.0031
+lottery_tau0.05,0.6288,0.036,3.41,0.8,0.0166
+lottery_tau0.10,0.3744,0.0537,1.58,0.32,0.0472
+bounded_m10,0.196,0.0071,1.51,0.28,0.1148
+sealed_m10_lot,0.192,0.0074,1.32,0.27,0.12
+sealed_m20,0.3921,0.0066,3.05,0.57,0.0632

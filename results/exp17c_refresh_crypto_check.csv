@@ -1,0 +1,2 @@
+new_shares_verify,verifies_under_pre_refresh_public_key,two_old_plus_one_new_verify,three_old_verify
+True,True,False,True

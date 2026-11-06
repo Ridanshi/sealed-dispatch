@@ -1,0 +1,8 @@
+factor,mean_adv_win
+selection=all_scored,0.9996
+selection=uniform_m,0.801
+selection=stake_m,0.7857
+blind_candidacy=False,0.8615
+blind_candidacy=True,0.8627
+slashing=False,0.9805
+slashing=True,0.7437

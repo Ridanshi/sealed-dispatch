@@ -1,0 +1,6 @@
+k_committee,m_committee,sequential_upper_bound_ms,parallel_realistic_estimate_ms,old_placeholder_model_ms,parallel_over_placeholder_ratio
+1,15,1.85,1.78,6.5,0.3
+3,15,6.57,2.77,9.5,0.3
+5,15,10.68,1.71,12.5,0.1
+7,15,14.63,4.67,15.5,0.3
+11,15,22.6,6.25,21.5,0.3
